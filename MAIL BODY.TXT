@@ -1,0 +1,30 @@
+⚠️ How to define it properly?
+
+body = MIMEText("Your message here", "plain")
+
+"Your message here" → actual text you want to send
+"plain" → content type (plain text). If you want HTML formatting, use "html".
+
+✅ Example for plain text body
+body = MIMEText("""
+Hi receiver-name,
+
+body of the mail.
+
+Thanks,
+sender-name
+""", "plain")
+
+✅ Example for HTML body
+body = MIMEText("""
+<html>
+  <body>
+    <p>Hi receiver-name,</p>
+    <p>This is your <b>body of the mail</b>.</p>
+    <p>Thanks,<br>sender-name</p>
+  </body>
+</html>
+""", "html")
+
+
+
