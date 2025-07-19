@@ -1,4 +1,4 @@
-# Email Automation Python
+# MailSwift - EMAILAutomation using Python
 
 This is a simple email automation script built with Python. It uses **smtplib** for sending emails and **dotenv** for secure environment variable management.
 
